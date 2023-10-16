@@ -2,8 +2,8 @@
 
 ## Setup Process
 
-`pnpm create vite template-vite_react_storybook --template react`\
+`pnpm create vite template-vite-react-storybook --template react-ts`\
 `pnpm i`\
+`rm -rf node_modules/.cache/storybook`\
 `pnpx sb init --builder vite`\
-`pnpm update`\
-`pnpm storybook`
+`pnpm run storybook`
